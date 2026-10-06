@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Mapa{% endblock %}
+{% block head %}<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">{% endblock %}
+{% block main %}
+<section class="wrap">
+  <h1>Mapa</h1>
+  <p class="lead">Visualiza las dependencias en Acapulco y encuentra la más cercana a ti.</p>
+  <div class="maptools">
+    <button id="gps" class="btn" type="button">Usar mi ubicación</button>
+    <button id="olvidar" class="btn alt" type="button">Olvidar mi ubicación</button>
+    <span id="msg" role="status">Buscando tu ubicación…</span>
+  </div>
+  <div id="map" aria-label="Mapa de dependencias"></div>
+  <ol id="cercanas" class="cercanas"></ol>
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="{{ url_for('static', path='js/mapa.js') }}"></script>
+{% endblock %}

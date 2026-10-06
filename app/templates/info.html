@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ titulo }}{% endblock %}
+{% block main %}
+<section class="wrap narrow">
+  <h1>{{ titulo }}</h1>
+  <p class="lead">{{ lead }}</p>
+  {% for q, a in items %}<details class="faq"><summary>{{ q }}</summary><p>{{ a }}</p></details>{% endfor %}
+  {% if active == '/ayuda' %}<p class="note">¿No encuentras lo que necesitas? Escribe a vin_acapulco@tecnm.mx o llama al (744) 442 9010 ext. 120.</p>{% endif %}
+</section>
+{% endblock %}

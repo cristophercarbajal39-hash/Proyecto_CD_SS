@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Servicio Social Tec{% endblock %}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', path='css/main.css') }}">
+{% block head %}{% endblock %}
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="main-header">
+  <a class="brand" href="/">🎓 Servicio Social Tec</a>
+  <nav aria-label="Principal"><ul class="nav-list">
+    {% for href, label in [('/', 'Inicio'), ('/proposito', 'Propósito'), ('/ayuda', 'Ayuda')] %}
+    <li><a href="{{ href }}" {% if active == href %}aria-current="page"{% endif %}>{{ label }}</a></li>
+    {% endfor %}
+  </ul></nav>
+</header>
+<main id="main">{% block main %}{% endblock %}</main>
+<footer class="foot">Tecnológico Nacional de México campus Acapulco. Departamento de Gestión Tecnológica y Vinculación.</footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>

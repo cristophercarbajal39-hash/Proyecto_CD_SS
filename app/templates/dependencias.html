@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}{{ 'Buscar dependencias' if buscar else 'Dependencias' }}{% endblock %}
+{% block main %}
+<section class="wrap">
+  <h1>{{ 'Buscar dependencias' if buscar else 'Dependencias' }}</h1>
+  <p class="lead">{{ 'Encuentra la dependencia ideal según tu carrera, área de interés y ubicación.' if buscar else 'Catálogo de instituciones que ofrecen programas de servicio social.' }}</p>
+  <div class="filters">
+    <input id="q" type="search" placeholder="Buscar por nombre o área (Sistemas, Redes, Bases de Datos…)" aria-label="Buscar dependencia">
+    {% if buscar %}
+    <select id="carrera" aria-label="Carrera">
+      <option value="">Todas las carreras</option>
+      {% for c in ['Ing. Sistemas Computacionales','Lic. Administración','Ing. Gestión Empresarial','Ing. Bioquímica','Ing. Electromecánica','Contador Público','Arquitectura'] %}<option>{{ c }}</option>{% endfor %}
+    </select>
+    {% endif %}
+  </div>
+  <p class="count">Resultados (<span id="n">{{ deps|length }}</span>)</p>
+  <div class="list">
+    {% for d in deps %}
+    <article class="dep" data-text="{{ (d.nombre ~ ' ' ~ (d.siglas or '') ~ ' ' ~ (d.area or ''))|lower }}" data-carreras="{{ (d.carreras or [])|join('|') }}">
+      <div class="mono" aria-hidden="true">{{ ((d.siglas or d.nombre)[:5]) }}</div>
+      <div class="dep-body">
+        <h3>{{ d.nombre }}{% if d.siglas %} ({{ d.siglas }}){% endif %}</h3>
+        <p>Área: {{ d.area or 'Por confirmar' }}</p>
+        <p>Carreras: {{ d.carreras|join(', ') if d.carreras else 'Por confirmar' }}</p>
+        <details><summary>Ver detalles</summary>
+          <dl>
+            {% for k, l in [('ubicacion','Ubicación'),('modalidad','Modalidad'),('plazas','Plazas'),('horario','Horario'),('requisitos','Requisitos'),('duracion','Duración'),('contacto','Contacto')] %}
+            <dt>{{ l }}</dt><dd>{{ d[k] or 'Por confirmar' }}</dd>{% endfor %}
+          </dl>
+        </details>
+      </div>
+      {% set vig = d.convenio and d.convenio.estado == 'vigente' %}<span class="pill {{ 'ok' if vig else '' }}">{{ 'Convenio vigente' if vig else ('No vigente' if d.convenio else 'Sin verificar') }}</span>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>
+const q = document.getElementById('q'), c = document.getElementById('carrera'), n = document.getElementById('n');
+const cards = [...document.querySelectorAll('.dep')];
+function filtrar() {
+  const t = q.value.trim().toLowerCase(), car = c ? c.value : '';
+  let v = 0;
+  cards.forEach(el => {
+    const ok = el.dataset.text.includes(t) && (!car || !el.dataset.carreras || el.dataset.carreras.split('|').includes(car));
+    el.hidden = !ok; if (ok) v++;
+  });
+  n.textContent = v;
+}
+q.addEventListener('input', filtrar); if (c) c.addEventListener('change', filtrar);
+</script>
+{% endblock %}

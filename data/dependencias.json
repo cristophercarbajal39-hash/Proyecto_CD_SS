@@ -1,0 +1,777 @@
+[
+ {
+  "id": 1,
+  "nombre": "Comisión Federal de Electricidad",
+  "siglas": "CFE",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.84768702506994,
+    "lon": -99.84875418007582
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 2,
+  "nombre": "H. Ayuntamiento Constitucional de Acapulco de Juárez",
+  "siglas": null,
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.862206005327508,
+    "lon": -99.88671763146218
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 3,
+  "nombre": "Sistema Municipal DIF Acapulco",
+  "siglas": "DIF Acapulco",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.794311238819578,
+    "lon": -99.84663601611851
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 4,
+  "nombre": "Comisión para la Protección contra Riesgos Sanitarios del Estado de Guerrero",
+  "siglas": "COPRISEG",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 17.55684448113372,
+    "lon": -99.50332847563558
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 5,
+  "nombre": "Instituto de Capacitación para el Estado de Guerrero",
+  "siglas": "ICATEGRO",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 17.543410230820882,
+    "lon": -99.4980332756358
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 6,
+  "nombre": "Instituto Estatal de Oftalmología",
+  "siglas": null,
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.90067551726198,
+    "lon": -99.82790546437602
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 7,
+  "nombre": "Colegio de Bachilleres del Estado de Guerrero",
+  "siglas": null,
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": "Plantel 07",
+    "lat": 16.87765419319379,
+    "lon": -99.91361618038512
+   },
+   {
+    "nombre": "Plantel MSAD Ahuacuotzingo",
+    "lat": 16.884963950244387,
+    "lon": -99.8997974395531
+   },
+   {
+    "nombre": "Plantel sin número (por confirmar)",
+    "lat": 16.875682974257504,
+    "lon": -99.8963642120106
+   },
+   {
+    "nombre": "Plantel 2",
+    "lat": 16.867058649766765,
+    "lon": -99.86125946042665
+   },
+   {
+    "nombre": "Plantel 16",
+    "lat": 16.90820545364486,
+    "lon": -99.83267784113542
+   },
+   {
+    "nombre": "Plantel 33",
+    "lat": 16.83526845516269,
+    "lon": -99.78178024287458
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 8,
+  "nombre": "Instituto Estatal de Cancerología «Dr. Arturo Beltrán Ortega»",
+  "siglas": null,
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.87376872090657,
+    "lon": -99.88595082960956
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 9,
+  "nombre": "H. Ayuntamiento Municipal Constitucional de Coyuca de Benítez",
+  "siglas": null,
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 17.009097996056664,
+    "lon": -100.08928471426401
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 10,
+  "nombre": "Fondo Nacional de Fomento al Turismo",
+  "siglas": "FONATUR",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.8856007216182,
+    "lon": -99.91095653459581
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 11,
+  "nombre": "CECyTEC Plantel 04 El Coloso",
+  "siglas": "CECYTEC 04",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.84667336762484,
+    "lon": -99.81959315844587
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 12,
+  "nombre": "Parque Papagayo",
+  "siglas": null,
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.85920175345958,
+    "lon": -99.88992674416743
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 13,
+  "nombre": "Preparatoria Abierta Región Acapulco-Coyuca",
+  "siglas": null,
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.879705023895454,
+    "lon": -99.89743692733614
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 14,
+  "nombre": "Universidad Tecnológica y Politécnica de Coyuca de Benítez",
+  "siglas": "UTyPCB",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.855289706718033,
+    "lon": -99.85043194680654
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 15,
+  "nombre": "Secretaría de Bienestar",
+  "siglas": null,
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.852474942539374,
+    "lon": -99.8485247325404
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 16,
+  "nombre": "Centro de Capacitación para el Trabajo Industrial No. 77",
+  "siglas": "CECATI 77",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.86279550455849,
+    "lon": -99.91366671982288
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 17,
+  "nombre": "Promotora y Administradora de los Servicios de Playas de Zona Federal Marítimo Terrestre de Acapulco",
+  "siglas": null,
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.858517668038754,
+    "lon": -99.89438085844579
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 18,
+  "nombre": "Dirección General de Educación Tecnológica Industrial y de Servicios en Guerrero",
+  "siglas": "DGETI",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.89020434222207,
+    "lon": -99.83518748487386
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 19,
+  "nombre": "Centro de Estudios Tecnológicos, Industrial y de Servicios No. 116",
+  "siglas": "CETIS 116",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.890106689426823,
+    "lon": -99.83700559961333
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 20,
+  "nombre": "Secretaría de Educación Guerrero Región Acapulco-Coyuca de Benítez",
+  "siglas": null,
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.864597589358986,
+    "lon": -99.87410553798985
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 21,
+  "nombre": "Comisión Nacional del Agua",
+  "siglas": "CONAGUA",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.85179399681923,
+    "lon": -99.90571766686024
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 22,
+  "nombre": "CONALEP Acapulco 1",
+  "siglas": "CONALEP 1",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.887596070738834,
+    "lon": -99.8364782179701
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 23,
+  "nombre": "Instituto Nacional del Suelo Sustentable",
+  "siglas": "INSUS",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.92382079999527,
+    "lon": -99.84164728287034
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 24,
+  "nombre": "Petróleos Mexicanos",
+  "siglas": "PEMEX",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.840315946365568,
+    "lon": -99.84317633146232
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 25,
+  "nombre": "SICT Centro Guerrero",
+  "siglas": "SICT",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.881781366179972,
+    "lon": -99.88237380977897
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 26,
+  "nombre": "Poder Judicial del Estado de Guerrero",
+  "siglas": null,
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.889215621193543,
+    "lon": -99.82830325647535
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 27,
+  "nombre": "Comisión Nacional de Acuacultura y Pesca",
+  "siglas": "CONAPESCA",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.84949057588753,
+    "lon": -99.90611638913435
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 28,
+  "nombre": "Promotora Turística de Guerrero",
+  "siglas": "PROTUR",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": null,
+    "lat": 16.800220427890967,
+    "lon": -99.81769982961019
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 29,
+  "nombre": "Servicio de Administración Tributaria",
+  "siglas": "SAT",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": "Oficinas Costera",
+    "lat": 16.86337397515044,
+    "lon": -99.87973465395606
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ },
+ {
+  "id": 30,
+  "nombre": "Instituto Mexicano del Seguro Social",
+  "siglas": "IMSS",
+  "area": null,
+  "ubicacion": null,
+  "carreras": null,
+  "modalidad": null,
+  "plazas": null,
+  "horario": null,
+  "requisitos": null,
+  "duracion": null,
+  "contacto": null,
+  "convenio": null,
+  "verificado": false,
+  "fuente": "DEPENDENCIAS_DE_SERVICIO_SOCIAL_ACTIVOS_2026.pdf",
+  "sedes": [
+   {
+    "nombre": "Hospital General Regional",
+    "lat": 16.874343171148947,
+    "lon": -99.89005378497184
+   }
+  ],
+  "coords_fuente": "Capturadas por el equipo (pendiente de verificar contra OSM)"
+ }
+]

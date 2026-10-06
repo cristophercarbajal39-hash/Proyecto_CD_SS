@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Proceso{% endblock %}
+{% block main %}
+<section class="wrap">
+  <h1>Proceso</h1>
+  <p class="lead">Roadmap del servicio social, periodo {{ cal.periodo }}. Sigue los pasos en orden y respeta las fechas.</p>
+  {% if prox %}
+  <div class="next" role="status">
+    <strong>Próxima fecha límite:</strong> {{ prox.actividad }}, {{ prox|rango }}
+    ({{ 'hoy' if dias == 0 else 'en ' ~ dias ~ ' días' }}).
+  </div>
+  {% endif %}
+  <ol class="steps">
+    {% for e in etapas %}
+    <li class="step {{ e.estado }}">
+      <div class="num" aria-hidden="true">{{ e.n }}</div>
+      <div class="step-body">
+        <h3>{{ e.titulo }}
+          {% if e.estado == 'actual' %}<span class="pill ok">Estás aquí</span>{% elif e.estado == 'hecho' %}<span class="pill">Completada</span>{% endif %}
+        </h3>
+        <ul class="acts">
+          {% for i in e['items'] %}
+          <li><span class="when">{{ i|rango }}</span> {{ i.actividad }}
+            <small>{{ i.responsable }}. Documento: {{ i.documento }}.</small></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+  <details class="note"><summary>Correcciones hechas al calendario oficial</summary>
+    <ul>{% for n in cal.notas %}<li>{{ n }}</li>{% endfor %}</ul>
+  </details>
+</section>
+{% endblock %}

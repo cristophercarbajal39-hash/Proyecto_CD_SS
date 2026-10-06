@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Convenios{% endblock %}
+{% block main %}
+<section class="wrap">
+  <h1>Convenios</h1>
+  <p class="lead">Consulta los convenios vigentes con instituciones de gobierno, empresas y organizaciones.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Institución</th><th>Tipo de convenio</th><th>Carreras</th><th>Vigencia</th><th>Estado</th></tr></thead>
+    <tbody>{% for d in deps %}
+      <tr><td>{{ d.nombre }}</td><td>Servicio social</td><td>{{ d.carreras|join(', ') if d.carreras else 'Por confirmar' }}</td>
+      <td>{{ d.convenio.vigencia if d.convenio and d.convenio.vigencia else 'Por confirmar' }}</td>
+      {% set vig = d.convenio and d.convenio.estado == 'vigente' %}<td><span class="pill {{ 'ok' if vig else '' }}">{{ 'Vigente' if vig else ('No vigente' if d.convenio else 'Sin verificar') }}</span></td></tr>
+    {% endfor %}</tbody>
+  </table></div>
+</section>
+{% endblock %}

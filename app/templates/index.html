@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="home">
+  <h1>Encuentra dónde realizar tu servicio social</h1>
+  <p>Consulta dependencias, conoce los requisitos, revisa convenios y encuentra opciones de acuerdo con tu carrera y área de interés.</p>
+</section>
+<section class="box">
+  {% for href, icon, t, d in [
+    ('/dependencias','🏛️','Dependencias','Consulta el listado de dependencias y sus programas de servicio social.'),
+    ('/proceso','📋','Proceso','Conoce los pasos y fechas para realizar tu servicio social.'),
+    ('/buscar','🔎','Buscar dependencias','Encuentra dependencias según tu carrera o área de interés.'),
+    ('/mapa','📍','Mapa','Visualiza la ubicación de las dependencias en Acapulco.'),
+    ('/convenios','🤝','Convenios','Consulta los convenios vigentes con instituciones de gobierno.'),
+    ('/preguntas','❓','Preguntas','Resuelve tus dudas sobre el servicio social.')] %}
+  <a href="{{ href }}" class="button"><span aria-hidden="true">{{ icon }}</span><h3>{{ t }}</h3><p>{{ d }}</p><strong aria-hidden="true">→</strong></a>
+  {% endfor %}
+</section>
+<p class="note wrap">Esta plataforma reúne información de diferentes dependencias en un solo lugar para facilitar la búsqueda de los estudiantes y evitar visitas innecesarias.</p>
+{% endblock %}

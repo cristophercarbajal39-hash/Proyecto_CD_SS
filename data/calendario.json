@@ -1,0 +1,246 @@
+{
+ "periodo": "Nov 2026 - May 2027",
+ "notas": [
+  "PDF original: la carta de aceptación decía 29/10/2025; se corrigió a 2026 (confirmar con Vinculación).",
+  "PDF original: generar el 2do reporte decía 12/03/2026; se corrigió a 2027 (confirmar con Vinculación)."
+ ],
+ "etapas": [
+  {
+   "n": 1,
+   "titulo": "Inducción y convocatoria",
+   "items": [
+    {
+     "actividad": "Publicación de la convocatoria",
+     "responsable": "Vinculación",
+     "documento": "Convocatoria",
+     "inicio": "2026-08-24",
+     "fin": "2026-08-24"
+    },
+    {
+     "actividad": "Curso de inducción: Ing. Sistemas Computacionales",
+     "responsable": "Vinculación",
+     "documento": "Lista de asistencia",
+     "inicio": "2026-09-01",
+     "fin": "2026-09-01"
+    },
+    {
+     "actividad": "Curso de inducción: Lic. Administración, Ing. Gestión Empresarial, Ing. Bioquímica",
+     "responsable": "Vinculación",
+     "documento": "Lista de asistencia",
+     "inicio": "2026-09-02",
+     "fin": "2026-09-02"
+    },
+    {
+     "actividad": "Curso de inducción: Ing. Electromecánica, Contador Público",
+     "responsable": "Vinculación",
+     "documento": "Lista de asistencia",
+     "inicio": "2026-09-03",
+     "fin": "2026-09-03"
+    },
+    {
+     "actividad": "Curso de inducción: Arquitectura",
+     "responsable": "Vinculación",
+     "documento": "Lista de asistencia",
+     "inicio": "2026-09-04",
+     "fin": "2026-09-04"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "titulo": "Registro de proyecto",
+   "items": [
+    {
+     "actividad": "La dependencia registra sus proyectos en la plataforma",
+     "responsable": "Dependencia",
+     "documento": "Registro en la plataforma",
+     "inicio": "2026-09-01",
+     "fin": "2026-10-16"
+    },
+    {
+     "actividad": "Vinculación valida los proyectos registrados",
+     "responsable": "Vinculación",
+     "documento": "Correo electrónico",
+     "inicio": "2026-09-07",
+     "fin": "2026-10-19"
+    },
+    {
+     "actividad": "Te inscribes al proyecto en la plataforma",
+     "responsable": "Alumno",
+     "documento": "Registro en la plataforma",
+     "inicio": "2026-09-07",
+     "fin": "2026-10-20"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "titulo": "Documentos de ingreso",
+   "items": [
+    {
+     "actividad": "Entregas solicitud de ingreso y carta compromiso a la oficina",
+     "responsable": "Alumno",
+     "documento": "Solicitud y carta compromiso",
+     "inicio": "2026-09-07",
+     "fin": "2026-10-21"
+    },
+    {
+     "actividad": "Recibes tu carta de presentación",
+     "responsable": "Vinculación",
+     "documento": "Carta de presentación",
+     "inicio": "2026-09-08",
+     "fin": "2026-10-22"
+    },
+    {
+     "actividad": "Entregas la carta de presentación a la dependencia",
+     "responsable": "Alumno",
+     "documento": "Carta de presentación",
+     "inicio": "2026-09-08",
+     "fin": "2026-10-23"
+    },
+    {
+     "actividad": "La dependencia te da carta de aceptación y plan de trabajo",
+     "responsable": "Dependencia",
+     "documento": "Carta de aceptación y plan de trabajo",
+     "inicio": "2026-09-09",
+     "fin": "2026-10-29"
+    },
+    {
+     "actividad": "Entregas carta de aceptación y plan de trabajo a la oficina",
+     "responsable": "Alumno",
+     "documento": "Carta de aceptación y plan de trabajo",
+     "inicio": "2026-09-09",
+     "fin": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "titulo": "Inicio del servicio social",
+   "items": [
+    {
+     "actividad": "Inicias actividades en la dependencia",
+     "responsable": "Alumno",
+     "documento": "Expediente",
+     "inicio": "2026-11-03",
+     "fin": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "titulo": "Primer reporte",
+   "items": [
+    {
+     "actividad": "Generas el 1er reporte en la plataforma",
+     "responsable": "Alumno",
+     "documento": "Registro en la plataforma",
+     "inicio": "2027-01-14",
+     "fin": "2027-01-14"
+    },
+    {
+     "actividad": "Lo entregas a la dependencia para firma y sello",
+     "responsable": "Alumno",
+     "documento": "1er reporte",
+     "inicio": "2027-01-14",
+     "fin": "2027-01-14"
+    },
+    {
+     "actividad": "Lo entregas a la oficina de servicio social",
+     "responsable": "Alumno",
+     "documento": "1er reporte",
+     "inicio": "2027-01-15",
+     "fin": "2027-01-22"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "titulo": "Segundo reporte",
+   "items": [
+    {
+     "actividad": "Generas el 2do reporte en la plataforma",
+     "responsable": "Alumno",
+     "documento": "Registro en la plataforma",
+     "inicio": "2027-03-12",
+     "fin": "2027-03-12"
+    },
+    {
+     "actividad": "Lo entregas a la dependencia para firma y sello",
+     "responsable": "Alumno",
+     "documento": "2do reporte",
+     "inicio": "2027-03-12",
+     "fin": "2027-03-12"
+    },
+    {
+     "actividad": "Lo entregas a la oficina de servicio social",
+     "responsable": "Alumno",
+     "documento": "2do reporte",
+     "inicio": "2027-03-16",
+     "fin": "2027-03-19"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "titulo": "Tercer reporte",
+   "items": [
+    {
+     "actividad": "Generas el 3er reporte en la plataforma",
+     "responsable": "Alumno",
+     "documento": "Registro en la plataforma",
+     "inicio": "2027-05-25",
+     "fin": "2027-05-25"
+    },
+    {
+     "actividad": "Lo entregas a la dependencia para firma y sello",
+     "responsable": "Alumno",
+     "documento": "3er reporte",
+     "inicio": "2027-05-25",
+     "fin": "2027-05-25"
+    },
+    {
+     "actividad": "Lo entregas a la oficina de servicio social",
+     "responsable": "Alumno",
+     "documento": "3er reporte",
+     "inicio": "2027-05-25",
+     "fin": "2027-06-04"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "titulo": "Cierre",
+   "items": [
+    {
+     "actividad": "Generas el reporte final en la plataforma",
+     "responsable": "Alumno",
+     "documento": "Registro en la plataforma",
+     "inicio": "2027-05-25",
+     "fin": "2027-05-25"
+    },
+    {
+     "actividad": "Lo entregas a la dependencia para firma y sello",
+     "responsable": "Alumno",
+     "documento": "Reporte final",
+     "inicio": "2027-05-25",
+     "fin": "2027-05-25"
+    },
+    {
+     "actividad": "La dependencia te entrega la carta de terminación",
+     "responsable": "Dependencia",
+     "documento": "Carta de terminación",
+     "inicio": "2027-05-25",
+     "fin": "2027-05-25"
+    },
+    {
+     "actividad": "Entregas reporte final y carta de terminación a la oficina",
+     "responsable": "Alumno",
+     "documento": "Reporte final",
+     "inicio": "2027-05-25",
+     "fin": "2027-06-04"
+    }
+   ]
+  }
+ ]
+}
